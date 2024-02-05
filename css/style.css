@@ -52,11 +52,24 @@ button {
     background: none;
 }
 
-.next{
+.next {
     background-color: teal;
     color: white;
     width: 100px;
     height: 50px;
     direction: none;
 }
-/* next */
+
+.balon {
+    display: flex;
+    gap: 62.5%;
+    position: absolute;
+    right: 50%;
+    padding-top: 95px;
+    height: 200px;
+    width: 300px;
+}
+
+.balon img {
+    background: none;
+}
